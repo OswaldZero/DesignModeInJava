@@ -8,7 +8,7 @@ package action;
 public class Strategy {
     public static void main(String[] args) {
 
-        Context c = new Context();
+        Context2 c = new Context2();
         Strategy1 s = new ConcreteStrategyA();
         c.setStrategy(s);
         c.strategyMethod();
